@@ -1,0 +1,15 @@
+.header{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    padding-left: 20px;
+}
+.wallpaper{
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    filter: sepia(1.4) hue-rotate(-10deg) opacity(0.6);
+}
