@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover; /* Ensure the image covers the entire background */
+    opacity: 0.8; /* Adjust opacity as desired */
+}
+
+.container {
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #666;
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.header-sample {
+    margin-bottom: 40px;
+}
+
+.header-style {
+    position: relative; /* Ensure positioning context for absolute button */
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #fff;
+    height: 300px; /* Set a fixed height for consistent appearance */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-style:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.header-style h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.header-style nav {
+    margin-top: auto; /* Push nav to the bottom */
+}
+
+.header-style nav a {
+    color: #666;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.header-style nav a:hover {
+    color: #007BFF;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.header-style .btn {
+    align-self: center; /* Center the button horizontally */
+    margin-top: 10px; /* Adjust top margin for spacing */
+    margin-bottom: 20px; /* Add bottom margin for consistent spacing */
+}
+
+.header-style .btn-primary {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.header-style .btn-primary:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
