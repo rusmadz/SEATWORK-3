@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header 1 */
+.header1 {
+    background: linear-gradient(135deg, #242b29, #3b4443);
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+.header1 a {
+    display: block;
+    text-decoration: none;
+    color: #fdfdfd;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.header1 a:hover {
+    background-color: #148f77;
+    transform: scale(1.05);
+}
+
+/* Header 2 */
+.header2 {
+    background: linear-gradient(135deg, #a62ad3, #de3bcb);
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+.header2 a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.header2 a:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+/* Header 3 */
+.header3 {
+    background: linear-gradient(135deg, #861848, #77115a);
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+.header3 a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.header3 a:hover {
+    background-color: #e67e22;
+    transform: scale(1.05);
+}
+
+/* Header 4 */
+.header4 {
+    background: linear-gradient(135deg, #cb7020, #e2b332);
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+.header4 a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.header4 a:hover {
+    background-color: #8e44ad;
+    transform: scale(1.05);
+}
+
+/* Header 5 */
+.header5 {
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+.header5 a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.header5 a:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+}
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
