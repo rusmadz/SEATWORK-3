@@ -1,14 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+}
 
 section {
     margin-bottom: 20px;
 }
 
-
+/* Header 1 */
 .header1 {
     display: flex;
     justify-content: center;
@@ -16,6 +21,7 @@ section {
     background-color: #e25a28;
     padding: 10px;
     border-bottom: 2px solid #e11b10;
+    flex-wrap: wrap;
 }
 .header1 a {
     text-decoration: none;
@@ -29,13 +35,14 @@ section {
     background-color: #a2cfd7;
 }
 
-
+/* Header 2 */
 .header2 {
     display: flex;
     justify-content: space-around;
     background-color: #07fba2;
     padding: 10px;
     border-bottom: 2px solid #5e62b4;
+    flex-wrap: wrap;
 }
 .header2 a {
     text-decoration: none;
@@ -48,13 +55,14 @@ section {
     color: #033137;
 }
 
-
+/* Header 3 */
 .header3 {
     display: flex;
     justify-content: flex-end;
     background-color: #23a80b;
     padding: 10px;
     border-bottom: 2px solid #b3cc99;
+    flex-wrap: wrap;
 }
 .header3 a {
     text-decoration: none;
@@ -67,13 +75,14 @@ section {
     transform: translateY(-3px);
 }
 
-
+/* Header 4 */
 .header4 {
     display: flex;
     justify-content: space-between;
     background-color: #794815;
     padding: 10px;
     border-bottom: 2px solid #d1d114;
+    flex-wrap: wrap;
 }
 .header4 a {
     text-decoration: none;
@@ -86,13 +95,14 @@ section {
     border-color: #ff9933;
 }
 
-
+/* Header 5 */
 .header5 {
     display: flex;
     justify-content: center;
     background-color: #f9f2f4;
     padding: 10px;
     border-bottom: 2px solid #e6b8bd;
+    flex-wrap: wrap;
 }
 .header5 a {
     text-decoration: none;
@@ -104,4 +114,124 @@ section {
 .header5 a:hover {
     background-color: #f2dede;
     color: #fb0d09;
+}
+
+/* Header 6 */
+.header6 {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    padding: 15px;
+    border-bottom: 3px solid #ff6f61;
+    flex-wrap: wrap;
+}
+.header6 a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.header6 a:hover {
+    background-color: #ff6f61;
+    transform: scale(1.05);
+}
+
+/* Header 7 */
+.header7 {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background: linear-gradient(135deg, #1c92d2, #f2fcfe);
+    padding: 15px;
+    border-bottom: 3px solid #2980b9;
+    flex-wrap: wrap;
+}
+.header7 a {
+    text-decoration: none;
+    color: #34495e;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+.header7 a:hover {
+    color: #2c3e50;
+}
+
+/* Header 8 */
+.header8 {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #43cea2, #185a9d);
+    padding: 15px;
+    border-bottom: 3px solid #16a085;
+    flex-wrap: wrap;
+}
+.header8 a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, border 0.3s ease;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+.header8 a:hover {
+    background-color: #16a085;
+    border: 2px solid #fff;
+}
+
+/* Header 9 */
+.header9 {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(135deg, #fc4a1a, #f7b733);
+    padding: 15px;
+    border-bottom: 3px solid #e74c3c;
+    flex-wrap: wrap;
+}
+.header9 a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+.header9 a:hover {
+    color: #e74c3c;
+    transform: translateY(-3px);
+}
+
+/* Header 10 */
+.header10 {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #c94b4b, #4b134f);
+    padding: 15px;
+    border-bottom: 3px solid #8e44ad;
+    flex-wrap: wrap;
+}
+.header10 a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.header10 a:hover {
+    background-color: #8e44ad;
+    color: #f3f3f3;
+}
+
+@media (max-width: 768px) {
+    .header1, .header2, .header3, .header4, .header5,
+    .header6, .header7, .header8, .header9, .header10 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header1 a, .header2 a, .header3 a, .header4 a, .header5 a,
+    .header6 a, .header7 a, .header8 a, .header9 a, .header10 a {
+        margin-bottom: 10px;
+    }
 }
