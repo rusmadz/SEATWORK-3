@@ -6,21 +6,21 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="https://i.pinimg.com/564x/64/8c/79/648c79aa7c8b17b123af98d57ff3568a.jpg" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">HEADER & FOOTER NI GANIA</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Seatwork 3 ito ni Gania, Ruzzel Aaron R.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-SEATWORK-3-5)
 
 ---
 
@@ -57,13 +57,14 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+This website is mostly about HEADERS and FOOTERS. This website is required to have the following items: 
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+Add 5 different static header styles.
+Add 5 different static footer styles.
+Add 5 different animated header styles.
+Add 5 different animated footer styles.
+I used HTML and CSS for this project. 
+
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -117,4 +118,3 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 |Source of pictures | I got my pictures in this website. | pinterest.com|
-11
